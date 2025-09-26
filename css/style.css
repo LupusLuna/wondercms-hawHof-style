@@ -1,0 +1,92 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.site-header {
+  background-color: #004785;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.site-nav {
+  margin-top: 10px;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-main {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.exam-schedule {
+  margin-top: 40px;
+}
+
+.exam-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.exam-schedule th,
+.exam-schedule td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.exam-schedule th {
+  background-color: #004785;
+  color: #fff;
+}
+
+.exam-schedule tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.site-footer {
+  background-color: #002f5b;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-footer a {
+  color: #fff;
+}
