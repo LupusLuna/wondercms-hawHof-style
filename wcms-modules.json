@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "themes": {
+          "name": "Style HAW-Hof",
+          "repo": "https://github.com/LupusLuna/wondercms-hawHof-style",
+          "summary": "Theme for exam appointment show",
+          "version": "1.0.0",
+  }
+}
