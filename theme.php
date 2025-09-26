@@ -10,7 +10,7 @@
   <meta name="description" content="<?php echo htmlspecialchars($Wcms->page('description')); ?>">
   
   <?php echo $Wcms->css(); ?>
-  <link rel="stylesheet" href="<?php echo $Wcms->asset('style.css'); ?>">
+  <link rel="stylesheet" href="<?php echo $Wcms->asset('css/style.css'); ?>">
 </head>
 <body>
 
@@ -71,6 +71,6 @@
   </footer>
 
   <?php echo $Wcms->js(); ?>
-  <script src="<?php echo $Wcms->asset('scripts.js'); ?>"></script>
+  <script src="<?php echo $Wcms->asset('scripts/scripts.js'); ?>"></script>
 </body>
 </html>
